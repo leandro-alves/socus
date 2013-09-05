@@ -1,0 +1,29 @@
+﻿@model Socus.Entities.Tratamento[]
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Tratamento</h2>
+
+<p>
+    <a href="@Url.Action("Novo", "Tratamento")">Novo</a>
+</p>
+
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var tratamento in Model)
+    {
+        <tr>
+            <td>@tratamento.Nome</td>
+            <td>@tratamento.Preco</td>
+            <td><a href="@Url.Action("Alterar", "Tratamento", new { id = tratamento.Id })">Alterar</a></td>
+            <td>@Html.PostLink(Url.Action("Apagar", "Tratamento", new { id = tratamento.Id }), "Apagar")</td>
+        </tr>
+    }
+</table>

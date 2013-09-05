@@ -1,0 +1,33 @@
+2013-09-03 20:35:38,109; 13   ; DEBUG; INSERT INTO tratamentos (nome, preco) VALUES (:p0, :p1); select lastval();:p0 = 'Clareamento' [Type: String (0)], :p1 = 99 [Type: Decimal (0)] 
+2013-09-03 20:36:41,675; 12   ; DEBUG; INSERT INTO tratamentos (nome, preco) VALUES (:p0, :p1); select lastval();:p0 = 'Limpeza' [Type: String (0)], :p1 = 150 [Type: Decimal (0)] 
+2013-09-03 20:41:00,114; 14   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:43:42,520; 11   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:47:53,561; 11   ; DEBUG; SELECT tratamento0_.id as id0_0_, tratamento0_.nome as nome0_0_, tratamento0_.preco as preco0_0_ FROM tratamentos tratamento0_ WHERE tratamento0_.id=:p0;:p0 = 2 [Type: Int64 (0)] 
+2013-09-03 20:48:09,271; 11   ; DEBUG; INSERT INTO tratamentos (nome, preco) VALUES (:p0, :p1); select lastval();:p0 = 'Limpeza' [Type: String (0)], :p1 = 150,00000 [Type: Decimal (0)] 
+2013-09-03 20:48:09,521; 11   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:48:16,151; 6    ; DEBUG; SELECT tratamento0_.id as id0_0_, tratamento0_.nome as nome0_0_, tratamento0_.preco as preco0_0_ FROM tratamentos tratamento0_ WHERE tratamento0_.id=:p0;:p0 = 3 [Type: Int64 (0)] 
+2013-09-03 20:49:11,648; 17   ; DEBUG; SELECT tratamento0_.id as id0_0_, tratamento0_.nome as nome0_0_, tratamento0_.preco as preco0_0_ FROM tratamentos tratamento0_ WHERE tratamento0_.id=:p0;:p0 = 3 [Type: Int64 (0)] 
+2013-09-03 20:49:51,534; 19   ; DEBUG; INSERT INTO tratamentos (nome, preco) VALUES (:p0, :p1); select lastval();:p0 = 'Limpeza' [Type: String (0)], :p1 = 80 [Type: Decimal (0)] 
+2013-09-03 20:49:51,654; 20   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:49:59,364; 20   ; DEBUG; SELECT tratamento0_.id as id0_0_, tratamento0_.nome as nome0_0_, tratamento0_.preco as preco0_0_ FROM tratamentos tratamento0_ WHERE tratamento0_.id=:p0;:p0 = 4 [Type: Int64 (0)] 
+2013-09-03 20:50:05,734; 17   ; DEBUG; INSERT INTO tratamentos (nome, preco) VALUES (:p0, :p1); select lastval();:p0 = 'Limpeza' [Type: String (0)], :p1 = 50 [Type: Decimal (0)] 
+2013-09-03 20:50:05,864; 22   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:51:37,371; 21   ; DEBUG; SELECT tratamento0_.id as id0_0_, tratamento0_.nome as nome0_0_, tratamento0_.preco as preco0_0_ FROM tratamentos tratamento0_ WHERE tratamento0_.id=:p0;:p0 = 5 [Type: Int64 (0)] 
+2013-09-03 20:51:50,709; 20   ; DEBUG; UPDATE tratamentos SET nome = :p0, preco = :p1 WHERE id = :p2;:p0 = 'Limpeza' [Type: String (0)], :p1 = 25 [Type: Decimal (0)], :p2 = 5 [Type: Int64 (0)] 
+2013-09-03 20:51:51,069; 11   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:54:54,026; 17   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:55:04,769; 17   ; DEBUG; select tratamento0_.id as id0_, tratamento0_.nome as nome0_, tratamento0_.preco as preco0_ from tratamentos tratamento0_ where tratamento0_.id=5 
+2013-09-03 20:55:04,823; 17   ; DEBUG; DELETE FROM tratamentos WHERE id = :p0;:p0 = 5 [Type: Int64 (0)] 
+2013-09-03 20:55:04,937; 19   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:55:26,515; 6    ; DEBUG; select tratamento0_.id as id0_, tratamento0_.nome as nome0_, tratamento0_.preco as preco0_ from tratamentos tratamento0_ where tratamento0_.id=4 
+2013-09-03 20:55:26,674; 6    ; DEBUG; DELETE FROM tratamentos WHERE id = :p0;:p0 = 4 [Type: Int64 (0)] 
+2013-09-03 20:55:26,812; 16   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:57:54,736; 19   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 20:58:14,709; 6    ; DEBUG; select tratamento0_.id as id0_, tratamento0_.nome as nome0_, tratamento0_.preco as preco0_ from tratamentos tratamento0_ where tratamento0_.id=1 
+2013-09-03 20:58:14,716; 6    ; DEBUG; DELETE FROM tratamentos WHERE id = :p0;:p0 = 1 [Type: Int64 (0)] 
+2013-09-03 20:58:14,867; 18   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 21:01:51,127; 19   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 21:02:01,844; 17   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 
+2013-09-03 21:02:35,039; 18   ; DEBUG; select tratamento0_.id as id0_, tratamento0_.nome as nome0_, tratamento0_.preco as preco0_ from tratamentos tratamento0_ where tratamento0_.id=3 
+2013-09-03 21:02:35,113; 18   ; DEBUG; DELETE FROM tratamentos WHERE id = :p0;:p0 = 3 [Type: Int64 (0)] 
+2013-09-03 21:02:35,289; 17   ; DEBUG; SELECT this_.id as id0_0_, this_.nome as nome0_0_, this_.preco as preco0_0_ FROM tratamentos this_ 

@@ -1,0 +1,5 @@
+﻿- Criar migration
+- Criar entidade
+- Criar mapeamento (Map)
+- Criar repositorio
+- Criar controller

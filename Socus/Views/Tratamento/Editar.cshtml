@@ -1,0 +1,26 @@
+﻿@model Socus.Forms.NovoTratamentoForm
+
+@{
+    ViewBag.Title = "Novo Tratamento";
+}
+
+<h2>Novo Tratamento</h2>
+
+@using (Html.BeginForm("Salvar", "Tratamento"))
+{
+    @Html.HiddenFor(x => x.Id)
+
+    <p>
+        @Html.LabelFor(x => x.Nome)<br />
+        @Html.TextBoxFor(x => x.Nome, new { style="width: 400px" })
+    </p>
+    
+    <p>
+        @Html.LabelFor(x => x.Preco)<br />
+        @Html.TextBoxFor(x => x.Preco)
+    </p>
+    
+    <p>
+        <input type="submit" value="Salvar" />
+    </p>
+}
